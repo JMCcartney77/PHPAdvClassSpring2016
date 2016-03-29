@@ -27,6 +27,7 @@
         <h2><?php echo $message; ?> </h2>
         <?php endif; ?>
         
+<!--        Again, # is keeping the web page returned after the number is entered, the same-->
         <form action="#" method="post">   
             Phone: <input name="phone" value="<?php echo $phone; ?>" /> <br />            
             <input type="submit" value="submit" class="btn btn-primary" />

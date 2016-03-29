@@ -10,6 +10,7 @@
             $url = 'http://www.example.com';
         ?>
         
+        
         <?php if ( filter_var($email, FILTER_VALIDATE_EMAIL) !== false ): ?>
             <h2>Email is valid</h2>
         <?php else: ?>

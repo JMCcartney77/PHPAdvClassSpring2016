@@ -19,9 +19,11 @@
         }
         ?>
         
+<!--        #Keeps activity in the same page-->
         <form action="#" method="post">            
             Birthday : <input type="date" name="dob" value="<?php echo $dob; ?>" />
             <input type="submit" value="submit" />
         </form>
+        
     </body>
 </html>

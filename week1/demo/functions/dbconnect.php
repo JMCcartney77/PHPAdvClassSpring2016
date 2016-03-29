@@ -2,7 +2,7 @@
 /**
  * Function to extablish a databse connection
  * 
- * @return PDO Object
+ * @return PDO (DataBase) Object
  */  
 function dbconnect() {
     $config = array(
